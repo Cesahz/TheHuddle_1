@@ -14,7 +14,7 @@ class MotorMapa:
         self.ancho_x = ancho_x
         self.alto_y = alto_y
         # matriz optimizada, memoria gestionada por C
-        self.matriz = np.zeros((alto_y, ancho_x), dtype=object)
+        self.matriz = np.zeros((alto_y, ancho_x), dtype=int)
         self.coordenada_inicio = None
         self.coordenada_fin = None
 
@@ -73,6 +73,6 @@ class MotorMapa:
                     self.matriz[y][x] = LIBRE
     
     def limpiar_todo_el_mapa(self):
-        self.matriz = np.zeros((self.alto_y, self.ancho_x), dtype=object)
+        self.matriz = np.zeros((self.alto_y, self.ancho_x), dtype=int)
         self.coordenada_inicio = None
         self.coordenada_fin = None
