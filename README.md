@@ -6,7 +6,7 @@
 
 ## 📌 Visión General
 
-**Motor Mahoraga** es un motor lógico de cálculo de trayectorias y simulación procedural de entornos grid-based (cuadrículas). Diseñado con un enfoque estricto en la eficiencia de memoria y la velocidad de ejecución, el sistema implementa el algoritmo **A\*** para la resolución de rutas óptimas y un generador de laberintos mediante **Búsqueda en Profundidad (DFS)**.
+**El simulador** es un motor lógico de cálculo de trayectorias y simulación procedural de entornos grid-based (cuadrículas). Diseñado con un enfoque estricto en la eficiencia de memoria y la velocidad de ejecución, el sistema implementa el algoritmo **A\*** para la resolución de rutas óptimas y un generador de laberintos mediante **Búsqueda en Profundidad (DFS)**.
 
 El proyecto está construido bajo una arquitectura modular estricta, garantizando un entorno 100% controlado donde la lógica matemática opera de forma insonorizada y totalmente aislada de la capa de presentación visual.
 
